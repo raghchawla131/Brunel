@@ -3,8 +3,8 @@ import Navbar from "../components/Navbar";
 import Faq from "../partials/Faq";
 import { useEffect } from "react";
 import girl from "../../public/image 32618.png";
-import spark from "../../public/spark, sparkle, 26.png";
-import rocket from "../../public/Group 1171281573.png"
+import spark from "../../public/spark, sparkle, 26 (1).png";
+import rocket from "../../public/Group 1171281573.png";
 
 const Home = () => {
   useEffect(() => {

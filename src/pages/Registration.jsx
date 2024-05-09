@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import SuccessfulSubmit from "./SuccessfulSubmit";
+import logo from "../../public/Vector.png";
+import err from "../../public/Vector copy 2.png";
 
 const Registration = () => {
   const [name, setName] = useState("");
@@ -38,7 +40,7 @@ const Registration = () => {
         <SuccessfulSubmit />
       ) : (
       <div className="reg__form">
-        <img className="nav__logo--reg" src="../../public/Vector.png" alt="" />
+        <img className="nav__logo--reg" src={logo} alt="" />
         <div className="reg__form--close">
           <Link to="/">
             <img src="/public/Close (1).png" alt="" />
@@ -68,7 +70,7 @@ const Registration = () => {
                 />
                 {isValid === false && (
                   <div className="reg__form--err">
-                    <img src="/public/Vector copy 2.png" alt="" />
+                    <img src={err} alt="" />
                     <p>Enter a valid email address</p>
                   </div>
                 )}
