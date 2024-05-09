@@ -4,6 +4,7 @@ import { useState } from "react";
 import SuccessfulSubmit from "./SuccessfulSubmit";
 import logo from "../../public/Vector.png";
 import err from "../../public/Vector copy 2.png";
+import close from "../../public/Close (1).png"
 
 const Registration = () => {
   const [name, setName] = useState("");
@@ -43,7 +44,7 @@ const Registration = () => {
         <img className="nav__logo--reg" src={logo} alt="" />
         <div className="reg__form--close">
           <Link to="/">
-            <img src="/public/Close (1).png" alt="" />
+            <img src={close} alt="" />
           </Link>
         </div>
         <div className="reg__form--temp">
