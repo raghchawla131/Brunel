@@ -1,0 +1,133 @@
+.reg__form {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__logo--reg {
+  position: absolute;
+  top: 31.89px;
+  left: 52.22px;
+}
+
+.reg__form--close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 32px;
+  left: 1324px;
+  border-radius: 50%;
+  border: 1px solid 
+  #CACACA;
+  padding: 16px;
+  gap: 10px;
+}
+
+.reg__form--close a {
+  position: relative;
+  height: 32px;
+  width: 32px;
+}
+
+.reg__form--temp {
+  width: 588px;
+  position: absolute;
+  top: 141px;
+  left: 426px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 62px;
+}
+
+.reg__form--header h4 {
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39.6px;
+  letter-spacing: -2%;
+  color: #2DA950;
+  text-align: center;
+}
+
+.reg__form--header h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 67.2px;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.reg__form--main {
+  display: flex;  
+  flex-direction: column;
+  gap: 47px;
+  padding-bottom: 120px;
+}
+
+.reg__form--input {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reg__form--input input {
+  background-color: #EFEFEF;
+  display: block;
+  border-radius: 64px;
+  border: 1px solid #efefeff5;
+  padding: 24px 36px;
+  margin-bottom: 4px;
+  width: 417px; 
+}
+
+.reg__form--input input,
+.reg__form--input input::placeholder {
+  color: #827A7A;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27.32px;
+  text-align: left;
+}
+
+.reg__form--input input:focus {
+  outline: none;
+}
+
+.reg__form--main button {
+  width: 417px;
+  padding: 26.11px 49.61px 26.11px 41.78px;
+  border-radius: 107.06px;
+  border: none;
+  background-color: #C9C9C9;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.59px;
+  text-align: center;
+}
+
+.reg__form--inp2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reg__form--err {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.reg__form--err img {
+  height: 15px;
+  width: 15px;
+}
+
+.reg__form--err p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.86px;
+  text-align: center;
+  color: #FF0808
+}

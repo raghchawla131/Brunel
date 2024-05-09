@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #EAEAEA;
+  border-radius: 65.28px;
+  height: 111.97px;
+  width: 1392px;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  padding: 16.97px 20.89px 16.97px 52.22px;
+}
+
+.nav__logo {
+  height: 30.5px;
+  width: 121px;
+}
+
+.nav__right {
+  display: flex;
+  gap: 15.67px;
+}
+
+.nav__right>* {
+  border-radius: 107.06px;
+  padding: 26.11px 41.78px 26.11px 41.78px;
+}
+
+.nav__right--1 {
+  border: 1.31px solid #EAEAEA;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.nav__right--2 {
+  background-color: #1C1C1C;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.59px;
+}

@@ -1,0 +1,102 @@
+.Submit__success {
+  display: flex;
+  justify-content: center;
+}
+
+.Submit__success--logo {
+  width: 121px;
+  height: 30.5px;
+  position: absolute;
+  top: 31.89px;
+  left: 52.22px;
+}
+
+.Submit__success--temp {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  align-items: center;
+  width: 718px;
+  top: 221px;
+  left: 361px;
+  position: absolute;
+  text-align: center;
+
+}
+
+.Submit__success--temp img {
+  height: 66.67px;
+  width: 66.67px;
+}
+
+.Submit__success--temp--btm > * {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Submit__success--temp--btm h4 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39.6px;
+  letter-spacing: -2%;
+  color: #2DA950;
+}
+
+.Submit__success--temp--btm h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 67.2px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #1C1C1C;
+}
+
+.Submit__success--temp--btm p {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 35.1px;
+  text-align: center;
+  color: #727272;
+}
+
+.Submit__success--temp--btm--congrats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Submit__success--redirect {
+  display: flex;
+  justify-content: center;
+  width: 718px;
+  height: 26px;
+  top: 732px;
+  left: 361px;
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+.Submit__success--redirect p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+
+.Submit__success--redirect p span {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.whitespace {
+  height: 20px;
+  width: 100%;
+  position: relative;
+  top: 780px;
+}
