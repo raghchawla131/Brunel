@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../../public/Vector.png";
+import tick from "../../public/Vector (2).png";
 
 
 const SuccessfulSubmit = () => {  
@@ -40,7 +41,7 @@ const SuccessfulSubmit = () => {
           alt=""
         />
         <div className="Submit__success--temp">
-          <img src="/public/Vector (2).png" alt="" />
+          <img src={tick} alt="" />
           <div className="Submit__success--temp--btm">
             <div>
               <h4>Success Submitted</h4>
