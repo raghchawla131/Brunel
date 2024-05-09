@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import { useState } from "react";
+import union from "../../public/Union copy.png"
 
 const Faq = () => {
   const [activeQueryIndex, setActiveQueryIndex] = useState(2);
@@ -18,7 +19,7 @@ const Faq = () => {
             <h1>Ask Questions</h1>
           </div>
           <div className="home__ask--stroke">
-            <img src="/public/Union copy.png" alt="" />
+            <img src={union} alt="" />
           </div>
           <div className="home__ask--faq">
             <div className="home__ask--faq-q" onClick={() => handleQueryClick(0)}>

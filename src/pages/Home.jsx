@@ -2,6 +2,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Faq from "../partials/Faq";
 import { useEffect } from "react";
+import girl from "../../public/image 32618.png";
+import spark from "../../public/spark, sparkle, 26.png";
+import rocket from "../../public/Group 1171281573.png"
 
 const Home = () => {
   useEffect(() => {
@@ -19,12 +22,12 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src="../../public/image 32618.png" alt="" />
+            <img src={girl} alt="" />
           </div>
           <div className="home__main--percent">
             <img
               className="sparkle"
-              src="../../public/spark, sparkle, 26.png"
+              src={spark}
               alt=""
             />
             <h1>40%</h1>
@@ -46,7 +49,7 @@ const Home = () => {
             </div>
           </div>
           <div className="home__main--staff">
-            <img src="../../public/Group 1171281573.png" alt="" />
+            <img src={rocket} alt="" />
             <div className="home__main--staff--content">
               <h4>10 DAYS</h4>
               <p>Staff deployment</p>
